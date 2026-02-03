@@ -12,8 +12,10 @@ and a hybrid post-quantum key exchange design.
 - Post-quantum extension using Kyber-based key encapsulation (PQOTKs) and hybrid session key derivation
 
 ## Scope & Limitations
-- The implementation focuses on cryptographic key management and session establishment.
-- Post-quantum message exchange can be extended using the same message flow as the classical X3DH-based implementation.
+- This implementation focuses on cryptographic key management and session key establishment.
+- The post-quantum extension covers Kyber-based key generation and hybrid session key derivation.
+- Message encryption and transmission using PQXDH follow the same workflow as the classical
+  X3DH-based implementation and were not re-implemented separately.
 - Server-side logic and credentials are intentionally omitted.
 
 ## Notes
